@@ -16,9 +16,16 @@ Conversational Interface: The chatbot engages in natural language conversations 
 Slack Integration: Users can interact with the music recommendation system directly through the Slack interface, eliminating the need for a separate application.
 Feedback and Learning: The system can learn and improve its recommendations based on user feedback, ensuring a continuously improving experience.
 Getting Started
-Clone the repository: git clone https://github.com/your-repo/music-recommendation.git
-Install the required dependencies: pip install -r requirements.txt
+Clone the repository: 
+
+git clone https://github.com/your-repo/music-recommendation.git
+Install the required dependencies: 
+
+pip install -r requirements.txt
 Configure the Slack integration by following the instructions in the slack_integration directory.
-Train the Rasa NLU and Rasa Core models: rasa train
-Run the Rasa server: rasa run --credentials credentials.yml
-Invite the Rasa bot to your Slack workspace and start interacting with it!
+Train the Rasa NLU and Rasa Core models:
+rasa train
+Run the Rasa server: 
+
+rasa run --credentials credentials.yml
+
